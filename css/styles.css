@@ -18,9 +18,19 @@ input[type="text"] {
     width: 150px;
 }
 /* Hide the output paragraph until the user has submitted the form */
-p {
+body p:nth-child(1) {
     background: #ffc125;
     color: #5e2612;
     padding: 10px;
     visibility: hidden;
 }
+.message {
+   
+    color: rgb(11, 0, 0);
+    font-size: 24px;
+   font-family: sans-serif;
+   font-weight: 700;
+   align-items: end;
+   text-decoration: wavy;
+  }
+  
